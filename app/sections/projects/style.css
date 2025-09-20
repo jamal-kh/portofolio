@@ -1,0 +1,27 @@
+.project-section {
+  overflow-y: auto;
+  scroll-behavior: smooth;
+}
+
+/* Scrollbar width */
+.project-section::-webkit-scrollbar {
+  width: 8px;
+  display: none;
+}
+
+/* Scrollbar track */
+.project-section::-webkit-scrollbar-track {
+  background: transparent; /* Can be light gray if you want */
+  border-radius: 4px;
+}
+
+/* Scrollbar thumb */
+.project-section::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.3); /* Slightly transparent */
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.project-section::-webkit-scrollbar-thumb:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
