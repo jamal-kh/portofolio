@@ -1,5 +1,6 @@
 import Info from "@/context/portofolioInfo";
 import Link from "next/link";
+import "./style.css"
 
 export default function Home() {
     return (
@@ -10,6 +11,14 @@ export default function Home() {
                 <div className="flex items-center justify-center">
                     <p className="text-[14px] whitespace-nowrap">{Info.jobs.join(" - ")}</p>
                 </div>
+
+                <a
+                    href={Info.cv.url}
+                    download={Info.cv.name}
+                    className="download-cv-btn"
+                >
+                    Download CV
+                </a>
             </div>
 
             <div className="flex gap-4 mt-4 w-[100%] justify-end">

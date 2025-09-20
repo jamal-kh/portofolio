@@ -1,0 +1,36 @@
+.download-cv-btn {
+    margin-top: 16px;
+    padding: 8px 16px;
+    margin: 8px 0;
+    border-radius: 0.25rem;
+    border: 1px solid;
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.7s ease;
+}
+
+.download-cv-btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    z-index: -11;
+    background-color: #000000;
+    border-radius: 50%;
+    transition: all 0.7s ease;
+
+}
+
+.download-cv-btn:hover {
+    color: #fff;
+}
+
+.download-cv-btn:hover::before {
+    content: "";
+    width: 500px;
+    height: 500px;
+}

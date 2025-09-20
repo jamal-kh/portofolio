@@ -19,7 +19,11 @@ const Info: IPersonalInfo = {
             url: "https://github.com/jamal-kh?tab=repositories",
             icon: FaLinkedin
         }
-    ]
+    ],
+    cv: {
+        name: "jamal_aldeen_khalil.pdf",
+        url: 'jamal_aldeen_khalil.pdf'
+    },
 };
 
 
