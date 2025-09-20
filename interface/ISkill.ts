@@ -1,7 +1,7 @@
-import { SVGProps } from "react";
+import { IconType } from "react-icons";
 
 export default interface ISkill {
-  icon: React.ComponentType<SVGProps<SVGSVGElement>>; 
+  icon: IconType; 
   title: string;
   technologies: string[];
   knowledgePercent: number; 

@@ -1,19 +1,8 @@
-import { SVGProps } from 'react';
+import IPersonalInfo from '@/interface/IPersonal';
 import { FaGithub, FaLinkedin} from 'react-icons/fa';
-interface LinkItem {
-    name: string;
-    url: string;
-    icon: React.ComponentType<SVGProps<SVGSVGElement>>;
-}
-
-interface PersonalInfo {
-    fullName: string;
-    jobs: string[];
-    links: LinkItem[];
-}
 
 // The actual info object
-const Info: PersonalInfo = {
+const Info: IPersonalInfo = {
     fullName: "Jamal Aldeen Khalil",
     jobs: [
         "Backend Developer",
