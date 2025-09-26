@@ -6,17 +6,17 @@ const Info: IPersonalInfo = {
     fullName: "Jamal Aldeen Khalil",
     jobs: [
         "Fullstack Developer",
-
+        "Flutter Developer"
     ],
     links: [
         {
             name: "GitHub",
-            url: "https://github.com/jamal-kh?tab=repositories",
+            url: "https://github.com/jamal-kh",
             icon: FaGithub
         }, 
         {
             name: "LinkedIn",
-            url: "https://github.com/jamal-kh?tab=repositories",
+            url: "www.linkedin.com/in/jamalaldeen-khalil-559b5b1b9",
             icon: FaLinkedin
         }
     ],
