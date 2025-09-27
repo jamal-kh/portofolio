@@ -16,7 +16,7 @@ const Info: IPersonalInfo = {
         }, 
         {
             name: "LinkedIn",
-            url: "www.linkedin.com/in/jamalaldeen-khalil-559b5b1b9",
+            url: "https://www.linkedin.com/in/jamalaldeen-khalil-559b5b1b9/",
             icon: FaLinkedin
         }
     ],
