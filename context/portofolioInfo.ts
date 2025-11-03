@@ -5,8 +5,7 @@ import { FaGithub, FaLinkedin} from 'react-icons/fa';
 const Info: IPersonalInfo = {
     fullName: "Jamal Aldeen Khalil",
     jobs: [
-        "Fullstack Developer",
-        "Flutter Developer"
+        "Backend Developer",
     ],
     links: [
         {
